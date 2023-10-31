@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home4/skoolfdp/public_html/mps/applications/
+    - export DEPLOYPATH=/home4/skoolfdp/public_html/mps/
     - /bin/cp -R applications $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R system $DEPLOYPATH
