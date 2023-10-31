@@ -27,6 +27,27 @@
         }
     }
 
+    public function signIn()
+    {
+        $email = $this->input->post('email');
+        $password = $this->input->post('password');
+        $student = $this->AuthModel->verify($email, $password);
+        if ($student) {
+            $isLoggedIn = array(
+                'loggedIn' => true,
+                'id' => $student->id,
+                'name' => $student->Name,
+                'class' => $student->Class,
+                'rollNo' => $student->Rollno,
+                'image' => $student->image
+            );
+            $this->session->set_userdata($isLoggedIn);
+            redirect(site_url('student'));
+        } else {
+            redirect(site_url('home'));
+        }
+    }
+
     public function logout()
     {
         session_destroy();
