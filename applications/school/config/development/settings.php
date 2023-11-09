@@ -2,14 +2,13 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$config['schoolDir'] = 'spipschool';
+$config['schoolDir'] = 'mps';
 
-$config['schoolName'] = 'Saraswati Paradise International Public School';
+$config['schoolName'] = 'Monal Public School';
 
-$config['schoolAddress'] = 'Housing Board Colony Bhattakufar Sanjauli Shimla';
+$config['schoolAddress'] = 'Nishpriya Cottage Sanjauli Shimla - 171006';
 
 $config['schoolLogo'] = 'logo.png';
 
-$config['SSL_VERIFYPEER'] = false;
+$config['SSL_VERIFYPEER'] = true;
 
-$config['schoolSmsName'] = 'SPIPS';

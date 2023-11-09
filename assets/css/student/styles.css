@@ -1,0 +1,63 @@
+
+.login-page-body {
+    background: #2995bf;
+}
+
+.login-page-logo {
+    width: 200px;
+}
+
+.login-page-logo-container {
+    align-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.login-page-school-name {
+    font-family: Nunito_regular, serif;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.login-page-school-name-container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.login-page-button {
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 15px 10px 15px;
+    font-family: Questrial-regular, serif;
+}
+
+.login-page-button-container {
+    text-align: center;
+    padding-top: 50px;
+    align-content: center;
+}
+
+.login-page-brand {
+    color: #ffffff;
+    font-family: Questrial-regular, serif;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.form-input {
+    display: inline;
+    background: transparent;
+    border: 2px solid;
+    border-color: white;
+    margin-bottom: 20px;
+    outline: none;
+    color: white;
+    font-family: Nunito-Semibold, serif;
+    padding: 10px 25px 10px 25px;
+}
+
+.form-input::placeholder {
+    color: white;
+    font-family: Nunito-Semibold, serif;
+}
