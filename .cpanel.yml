@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home4/skoolfdp/public_html/mps/applications/student/testing/
+    - export DEPLOYPATH=/home4/skoolfdp/public_html/mps/applications/student/config/testing/
     - /bin/cp -R applications/student/testing/config.php $DEPLOYPATH
 #    - /bin/cp -R system $DEPLOYPATH
 #    - /bin/cp -R tests $DEPLOYPATH
